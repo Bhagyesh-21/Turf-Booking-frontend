@@ -1,0 +1,136 @@
+/* AuthPage.css */
+
+/* .auth-page {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f9fc;
+    background-image: url('../images/loginImage.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  } */
+  
+
+  /* .auth-page {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f9fc;
+    background-image: url('../images/loginImage.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    width: 100vw; 
+    overflow: hidden; 
+  } */
+
+
+  .auth-page {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f9fc;
+    background-image: url('../images/loginImage.jpg'); /* Path to your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensure it covers the full viewport height */
+    width: 100vw; /* Ensure it covers the full viewport width */
+    overflow: hidden; /* Prevents scrolling */
+}
+
+  .card {
+    /* background-color: #fff; */
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgba(209, 209, 209, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #2ECC71;
+    margin-bottom: 25px;
+    font-size: 24px;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  #user-login-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #2ECC71;;
+    color: #030303;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  #user-login-btn:hover {
+    background-color: #6fffa4;
+  }
+  
+  #user-login-btn:focus {
+    outline: none;
+  }
+  
+  #user-re-btn{
+    background-color: #2ECC71;
+    color: #030303;
+  }
+  #user-re-btn:hover{
+    background-color: #32fe83;
+  }
+  .toggle-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .toggle-buttons button {
+    width: 48%;
+  }
+  
+  .remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .remember-me input {
+    margin-right: 10px;
+  }
+  
+  @media (max-width: 400px) {
+    .card {
+      width: 90%;
+      padding: 20px;
+    }
+  }
+  

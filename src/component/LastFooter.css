@@ -1,0 +1,19 @@
+.last-footer {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.8rem;
+    /* color: #47b64e; */
+    border-top: 2px solid #df1414;
+    
+}   
+
+/* Optional: If you want to give the footer a sporty look, add these styles */
+#last-footer-p {
+    font-family: 'Arial', sans-serif; /* Sporty font */
+    color: #000204; /* Sporty blue color */
+    margin: 0;
+    padding: 0;
+}

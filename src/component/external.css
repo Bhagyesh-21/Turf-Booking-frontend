@@ -1,0 +1,228 @@
+/* .home_heading {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #257180;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+/* } 
+/*
+.home_heading, .heading_about, .heading_product, .heading_contact{
+    color: #752225;
+    font-size: 30px;
+    display: grid;
+    justify-content: center;
+    
+}
+
+div#root{
+    
+}
+
+.logo{
+    margin: 20px 47%;
+    transition: 2s;
+    
+}
+
+.logo:hover{
+    transform:rotate(360deg);
+    
+
+}
+
+.logo-title{
+    font-size: 50px;
+    color: white;
+    transition: 1s;
+
+         text-shadow: 
+            1px 1px 0px #8b6b02, 
+            -1px -1px 0px #8b6b02,
+            1px -1px 0px #8b6b02,
+            -1px 1px 0px #8b6b02; 
+            
+}
+
+.logo-title:hover{
+    transform: scale(1.1);
+}
+
+.aboutus{
+    display: flex;
+    background-color: #f6d6ca;
+    border-radius: 60px;
+    box-shadow: 10px 10px 10px #c7c5c5;
+    transition: 1s;
+    border-color: #fbd5d5;
+    border:groove;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.aboutus:hover{
+    
+    transform: scale(1.02);
+}
+
+
+
+.card1{
+    width: fit-content;
+}
+
+.card_h2{
+    text-align: center;
+}
+
+
+
+.home_p{
+    
+    border: 2px solid #243642;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 15px 40px 15px 40px;
+    
+    width: 80%;
+    
+    box-sizing: inherit;
+}
+
+.strong{
+    
+    border-radius: 6px;
+    margin: 15px 0.2% 5px;
+    padding: 6px;
+    font-size: 20px;
+    color: #641316;
+    
+}
+
+
+
+.custom-card {
+    margin-right: 15px; 
+}
+
+
+.custom-card:last-child {
+    margin-right: 0;
+}
+.product-container {
+    padding: 20px;
+    text-align: center;
+    background-color: #f8f9fa; 
+    display: flex;
+}
+
+
+.product-card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 10px 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin: 10px;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.card-body {
+    text-align: left;
+    padding: 20px;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #007bff; 
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555; 
+}
+
+.card-footer {
+    background-color: #fff; 
+    border-top: 1px solid #eaeaea; 
+    padding: 10px 20px;
+}
+
+.text-muted {
+    color: #6c757d; 
+} */
+
+
+
+
+
+
+
+
+
+
+
+/* external.css */
+
+.about-container {
+    background: linear-gradient(145deg, #ffffff, #e0e0e0);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    margin: 30px;
+    text-align: left;
+    height: 100vh;
+}
+
+.heading_about {
+        font-size: 41px;
+        text-align: center;
+        color: #333333;
+        background: linear-gradient(145deg, #af4c4c, #3c388e);
+        padding: 1px;
+        border-radius: 72px;
+        font-family: cursive;
+        margin-top: 5px;
+        color: #ffffff;
+    
+}
+
+.about-content {
+    font-family: 'Verdana', sans-serif;
+    color: #333333;
+}
+
+.about-section {
+    margin-bottom: 30px;
+}
+
+.about-section h2 {
+    font-size: 28px;
+    color: #388E3C;
+    margin-bottom: 10px;
+}
+
+.about-section p, .about-list {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.about-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.about-list li {
+    margin-bottom: 10px;
+}
+
+.about-list li strong {
+    color: #4CAF50;
+}
+

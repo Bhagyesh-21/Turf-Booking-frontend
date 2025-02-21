@@ -1,0 +1,123 @@
+/* AdminAuthPage.css */
+/* .auth-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.toggle-buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+} */
+
+
+
+
+
+
+
+
+/* AdminAuthPage.css */
+
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url('/images/background.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} */
+
+.body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    /* background-image: url('/images/background.jpg'); Path to your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.admin-auth-page-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.auth-card {
+    /* max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center; */
+
+    max-width: 400px;
+    width: 71%;
+    padding: 3px;
+    /* background-color: rgba(255, 255, 255, 0.9); */
+    /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
+    border-radius: 8px;
+    text-align: center;
+    margin-left: 179px;
+    margin-top: 467px;
+}
+
+.auth-toggle-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 60px;
+    margin-left: 109px;
+}
+
+#auth-register-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+
+#auth-register-btn:hover {
+    opacity: 0.9;
+}
+
+#auth-register-btn:nth-child(1) {
+    background-color: #007bff;
+}
+
+#auth-register-btn:nth-child(2) {
+    background-color: #28a745;
+}

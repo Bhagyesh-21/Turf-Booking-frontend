@@ -1,0 +1,27 @@
+/* GoogleSignIn.css */
+
+/* Google Sign-In Button - Energetic Green Turf Theme */
+#google-signin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#google-signin-button {
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    background-color: #2ECC71; 
+    color: #1E1E2F; 
+    font-weight: bold;
+    transition: background 0.3s ease-in-out, transform 0.2s;
+    width: 100%;
+}
+
+#google-signin-button:hover {
+    background-color: #65ffa5; 
+    transform: scale(1.05);
+}

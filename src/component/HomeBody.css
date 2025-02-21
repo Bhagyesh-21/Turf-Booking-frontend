@@ -1,0 +1,118 @@
+/* HomeBody.css */
+#hb-strong {
+    font-size: 24px;
+    color: #ffcc00; /* Sporty yellow color */
+    font-family: Arial, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin-top: 50px;
+    display: block;
+    padding-top: 30px;
+}
+
+.homeBody-nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+#homeBody-a {
+    font-size: 20px;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+#homeBody-a:hover {
+    background-color: #ffcc00; /* Sporty yellow color */
+    color: #000;
+}
+
+#homeBody-btn{
+    font-size: 20px;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-left: 43.5%;
+    margin-top: 4%;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+#homeBody-btn:hover{
+    background-color: #ffcc00; /* Sporty yellow color */
+    color: #000;   
+}
+#homeBody-btn2{
+    font-size: 20px;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-left: 45%;
+    margin-top: 4%;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+#homeBody-btn2:hover{
+    background-color: #ffcc00; /* Sporty yellow color */
+    color: #000;   
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 
+#hb-strong{
+    font-weight: bold;
+    font-size: 35px;
+    font-family: emoji;
+    display: block; 
+    margin: 0 auto; 
+    text-align: center
+}
+
+.homeBody-nav {
+    
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    color: #c7e0fa;
+    font-size: 60px;
+}
+
+#homeBody-a {
+    font-size: 30px;
+    margin: 20px 50px;
+    padding: 10px 20px;
+    color: #c7e0fa;
+    text-decoration: none;
+    background-color: rgba(4, 54, 190, 0.6);
+    border-radius: 500px;
+    transition: background-color 0.3s;
+
+}
+
+#homeBody-a:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}  */

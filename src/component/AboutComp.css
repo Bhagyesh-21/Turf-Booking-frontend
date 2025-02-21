@@ -1,0 +1,102 @@
+/* General styling for the AboutComp component */
+/* 
+.heading_about {
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.aboutus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about_img {
+    margin: 40px 40px 40px 160px;
+    height: 220px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.aboutus1 {
+    margin: 40px 40px 40px 160px;
+    height: 220px;
+}
+
+.aboutus p {
+    margin: 50px 150px 40px 20px;
+    font-size: 20px;
+    color: #666;
+}
+
+.aboutus strong {
+    color: #333;
+}
+
+hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #eee;
+} */
+
+
+
+
+
+
+
+
+.heading_about {
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#about-letsplay{
+    color: red;
+}
+
+.aboutus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about_img {
+    margin: 40px 40px 40px 160px;
+    height: 220px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.aboutus1 {
+    margin: 40px 40px 40px 160px;
+    height: 220px;
+}
+
+.aboutus p {
+    margin: 50px 150px 40px 20px;
+    font-size: 20px;
+    color: #666;
+}
+
+.aboutus strong {
+    color: #333;
+}
+
+hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #eee;
+} 

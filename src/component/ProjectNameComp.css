@@ -1,0 +1,15 @@
+.ProjectName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 42%;  */
+    font-size: 55px;
+    color: #ffffff; /* White Text */
+    text-shadow: 
+      -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000; /* Black Border Effect */
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  

@@ -1,0 +1,156 @@
+/* /* ViewTurf.css
+
+#view-turf-container {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    background-color: #dbf6da; 
+    min-height: 100vh;
+}
+
+#view-turf-container h2 {
+    color: #2c3e50;
+    text-align: center;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #2c3e50;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+#view-turf-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#view-turf-list li {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#view-turf-list li p {
+    margin: 5px 0;
+    color: #34495e;
+} */
+
+
+
+
+
+
+
+/* ViewTurf.css */
+/*
+#view-turf-container {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    background-color: #dbf6da; 
+    min-height: 100vh;
+}
+
+#view-turf-container h2 {
+    color: #2c3e50;
+    text-align: center;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #2c3e50;
+    display: block;
+    padding-bottom: 10px;
+}
+
+#view-turf-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#view-turf-table th, #view-turf-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#view-turf-table th {
+    background-color: #2c3e50;
+    color: white;
+    text-align: left;
+}
+
+#view-turf-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#view-turf-table tr:hover {
+    background-color: #ddd;
+}
+
+#view-turf-table th, #view-turf-table td {
+    text-align: center;
+}
+#book-btn{
+    
+
+} */
+
+
+
+
+/* ViewTurf.css */
+
+#view-turf-container {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    background-color: #dbf6da; /* Light blue background */
+    min-height: 100vh;
+}
+
+#view-turf-container h2 {
+    color: #2c3e50;
+    text-align: center;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #2c3e50;
+    display: block;
+    padding-bottom: 10px;
+}
+
+#view-turf-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#view-turf-table th, #view-turf-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#view-turf-table th {
+    background-color: #2c3e50;
+    color: white;
+    text-align: left;
+}
+
+#view-turf-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#view-turf-table tr:hover {
+    background-color: #18526c; /* Dark green background on hover */
+    color: white; /* Text color changes to white on hover */
+}
+
+#view-turf-table th, #view-turf-table td {
+    text-align: center;
+}
+
+#book-btn {
+    /* Your button styling */
+}

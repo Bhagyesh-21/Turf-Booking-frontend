@@ -1,0 +1,104 @@
+/* AdminRegisteredTurfComp.css
+.admin-registered-turf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.turf-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.turf-item {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.turf-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 0 0 10px;
+}
+
+.turf-details {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.turf-details h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #007bff;
+}
+
+.turf-details p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.turf-details a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.turf-details a:hover {
+    text-decoration: underline;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+/* AdminRegisteredTurfComp.css */
+.admin-registered-turf {
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+img {
+    border-radius: 5px;
+}

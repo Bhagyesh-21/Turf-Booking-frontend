@@ -1,0 +1,393 @@
+/* HomeNav.css
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+nav a.active {
+    background-color: #4CAF50;
+    color: white;
+} */
+
+
+
+
+
+
+
+
+
+/* HomeNav.css */
+/* .home-nav {
+    background-image: url('../images/turfbg.jpg'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 500px;
+    color: #c7e0fa;
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} */
+
+/* .home-nav a {
+    font-size: 30px;
+    margin: 20px 50px;
+    padding: 10px 20px;
+    color: #c7e0fa;
+    text-decoration: none;
+    background-color: rgba(4, 54, 190, 0.6);
+    border-radius: 500px;
+    transition: background-color 0.3s;
+
+}
+
+.home-nav a:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#profile {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto; */
+    /* justify-content: center; */
+    
+ /*   align-items: end;
+}
+*/
+
+
+
+
+
+
+
+
+
+/* HomeNav.css */
+/* .home-nav {
+    background-image: url('../images/turfbg.jpg'); /* Ensure the path is correct */
+ /*   background-size: cover;
+    background-position: center;
+    position: relative; /* To position the profile image absolutely within this container */
+ /*   height: 500px;*/
+    /* color: #c7e0fa;
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; Align the text at the bottom */
+/*}*/
+
+/* .home-nav a {
+    font-size: 30px;
+    margin: 0px 50px;
+    padding: 10px 20px;
+    color: #c7e0fa;
+    text-decoration: none;
+    background-color: rgba(4, 54, 190, 0.6);
+    border-radius: 500px;
+    transition: background-color 0.3s;
+}
+
+.home-nav a:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#profile {
+    width: 100px;
+    height: 100px;
+    top: 10px; 
+    right: 10px; 
+    display: block;
+    border-radius: 50%;
+    
+    align-self: flex-end;
+}
+
+#welcome{
+    font-size: 30px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HomeNav.css */
+/* .home-nav {
+    background-image: url('../images/turfbg.jpg'); 
+    background-size: cover;
+    background-position: center;
+    position: relative; 
+    height: 500px;
+    color: #c7e0fa;
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; 
+    padding-bottom: 20px;
+    text-align: center; 
+}
+
+.home-nav a {
+    font-size: 30px;
+    margin: 20px 50px;
+    padding: 10px 20px;
+    color: #c7e0fa;
+    text-decoration: none;
+    background-color: rgba(4, 54, 190, 0.6);
+    border-radius: 500px;
+    transition: background-color 0.3s;
+}
+
+.home-nav a:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#profile {
+    width: 100px;
+    height: 100px;
+    position: absolute; 
+    top: 10px; 
+    right: 10px; 
+    border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+    bottom: 20px; 
+    left: 50%;
+    transform: translateX(-50%); 
+} */
+
+
+
+
+
+
+
+
+
+/* HomeNav.css */
+/* .home-nav-container {
+    position: relative;
+}
+
+.home-nav {
+    background-image: url('../images/turfbg.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative; 
+    height: 500px;
+    color: #c7e0fa;
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; 
+    padding-bottom: 20px;
+    text-align: center; 
+}
+
+.home-nav a {
+    font-size: 30px;
+    margin: 20px 50px;
+    padding: 10px 20px;
+    color: #c7e0fa;
+    text-decoration: none;
+    background-color: rgba(4, 54, 190, 0.6);
+    border-radius: 500px;
+    transition: background-color 0.3s;
+}
+
+.home-nav a:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#profile {
+    width: 100px;
+    height: 100px;
+    position: absolute; 
+    top: 10px; 
+    right: 10px; 
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 10%;
+}
+
+#welcome {
+    position: absolute;
+    bottom: 20px; 
+    left: 50%;
+    transform: translateX(-50%); 
+} */
+
+
+
+
+
+
+
+
+/* HomeNav.css */
+
+/* 
+.home-nav-container {
+    position: relative;
+}
+
+.home-nav {
+    background-image: url('../images/turfbg.jpg'); 
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 500px;
+    color: #c7e0fa;
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; 
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.home-nav a {
+    font-size: 30px;
+    margin: 20px 50px;
+    padding: 10px 20px;
+    color: #c7e0fa;
+    text-decoration: none;
+    background-color: rgba(4, 54, 190, 0.6);
+    border-radius: 500px;
+    transition: background-color 0.3s;
+}
+
+.home-nav a:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#profile {
+    width: 100px;
+    height: 100px;
+    position: absolute; 
+    top: 10px; 
+    right: 10px; 
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#welcome {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%); 
+} */
+
+
+/* HomeNav.css */
+
+
+/* .home-nav-container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url('../images/football_3.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
+
+.home-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#profile {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#welcome {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #ffcc00; 
+    font-family: Arial, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+} */
+
+
+/* HomeNav.css */
+.home-nav-container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url('../images/football_3.jpg'); /* Update this path to your background image */
+    background-size: cover;
+    background-position: center;
+}
+
+.home-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#profile {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: -350px;
+    right: -750px;
+    border: #ffcc00;
+}
+
+#welcome {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #ffcc00; /* Sporty yellow color */
+    font-family: Arial, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}

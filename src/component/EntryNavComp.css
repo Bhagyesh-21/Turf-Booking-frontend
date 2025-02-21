@@ -1,0 +1,50 @@
+.entry-nav {
+    background-image: url('../images/turfA2.jpg'); /* Replace with your image path */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    padding-bottom: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .logo-container {
+    margin-top: 20px; /* Adjust for top spacing */
+    margin-left: 20px; /* Adjust for left spacing */
+  }
+  
+  .logo-container h1 {
+    color: rgb(235, 235, 235);
+    font-size: 50px;
+    font-weight: bold;
+    /* background-color: #eb0000; */
+    border: 0px solid #fefefe;
+  }
+  
+  .buttons-container {
+    display: flex;
+    gap: 20px; /* Space between buttons */
+    margin-top: 20px; /* Adjust for top spacing */
+  }
+  
+  .buttons-container a {
+    display: inline-block;
+    padding: 10px 10px;
+    margin: 10px;
+    border: 2px solid #d68d05;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .buttons-container a:hover {
+    background-color: #eb0000;
+    color: #fff;
+    border: 2px solid #fffffe;
+  }
+  
