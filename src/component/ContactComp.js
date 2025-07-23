@@ -1,13 +1,10 @@
 import React from 'react'
-import BootstrapComp from './BootstrapComp'
+// import BootstrapComp from './BootstrapComp'
 import './external.css';
 import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
 import { faGithub, faInstagram, faLinkedin, faWhatsapp } from '@fortawesome/free-brands-svg-icons'
-
-// src/ContactForm.js
-// import React, { useState } from 'react';
-import './ContactForm.css';
+// import './ContactForm.css';
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -50,14 +47,6 @@ const ContactForm = () => {
         </div>
         <button type="submit">Submit</button>
       </form>
-
-      {/* <h1>Follow Us</h1> 
-      <a href="https://www.instagram.com/yourprofile" target="_blank" rel="noopener noreferrer"> 
-       <FontAwesomeIcon icon={faInstagram} size="2x" /> 
-      </a> 
-      <a href="https://wa.me/yourphonenumber"  rel="noopener noreferrer"> 
-        <FontAwesomeIcon icon={faWhatsapp} size="2x" /> </a>       */}
-     
      <h1>Follow Us</h1> 
 <a href="https://www.instagram.com/yourprofile" target="_blank" rel="noopener noreferrer" className="social-link"> 
   <FontAwesomeIcon icon={faInstagram} size="2x" /> 

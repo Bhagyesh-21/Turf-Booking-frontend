@@ -1,91 +1,3 @@
-// import logo from './logo.svg';
-// import './App.css';
-// import LoginComp from './layout/LoginComp';
-// import NavComp from './layout/NavComp';
-// import HomeComp from './component/HomeComp';
-// import AboutComp from './component/AboutComp';
-// import ProductComp from './component/ProductComp';
-// import ContactComp from './component/ContactComp';
-// import MainDashboardComp from './layout/MainDashboardComp';
-// import PageNotFoundComp from './layout/PageNotFoundComp';
-
-// function App() {
-//   return (
-//     <div className="App">
-//       {/* <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header> */}
-
-      
-//       {/* <HomeComp/> {<hr/>}
-//       <AboutComp/> {<hr/>}
-//       <ProductComp/> {<hr/>}
-//       <ContactComp/> {<hr/>} */}
-
-//       {/* <LoginComp/> {<hr/>} */}
-//       {/* <MainDashboardComp/> */}
-//       {/* <NavComp/> {<hr/>} */}
-//       {/* <PageNotFoundComp/> */}
-//       {/*                                 <NavComp></NavComp>       //why not responding                  */}
-//     </div>
-//   );
-// }
-
-// export default App;
-
-
-
-
-
-// // import React, { useEffect, useState } from 'react';
-// // import axios from 'axios';
-// // import './App.css';
-
-// // function App() {
-// //     const [greeting, setGreeting] = useState('');
-
-// //     useEffect(() => {
-// //         axios.get('/api/greeting')
-// //             .then(response => {
-// //                 setGreeting(response.data);
-// //             })
-// //             .catch(error => {
-// //                 console.error('There was an error!', error);
-// //             });
-// //     }, []);
-
-// //     return (
-// //         <div className="App">
-// //             <h1>{greeting}</h1>
-// //         </div>
-// //     );
-// // }
-
-// // export default App;
-
-
-
-
-
-
-
-
-
-
-
-
-
 import React, { useState, useEffect } from 'react';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import EntryPage from '../src/component/EntryPage';
@@ -104,8 +16,8 @@ import AdminSportFormComp from '../src/components2/AdminSportFormComp';
 import AdminRegisteredTurfComp from '../src/components2/AdminRegisteredTurfComp';
 import AdminTurfsComp from '../src/components2/AdminTurfsComp';
 // import EditTurfComp from '../src/CURD/EditTurfComp';
-import TurfDashComp from './CURD/TurfDashComp';
-import TurfService from './CURD/TurfService';
+// import TurfDashComp from './CURD/TurfDashComp';
+// import TurfService from './CURD/TurfService';
 import PaymentPopup from './component/PaymentPopup';
 // import Bookings from './component/Bookings';
 import AdminAddTurfFormComp from './components2/AdminAddTurfFormComp';
@@ -120,6 +32,7 @@ import UserAccountComp from './component/UserAccountComp';
 import ViewTurf from './component/ViewTurf';
 import GoogleSignIn from './component/GoogleSignIn';
 import PageNotFoundComp from './layout/PageNotFoundComp';
+import TurfService from './components2/TurfService';
 
 
 const App = () => {
@@ -149,7 +62,7 @@ const App = () => {
         { path: '/admin/:sport', element: <AdminSportFormComp onAddTurf={handleAddTurf} /> },
         { path: '/admin-registered-turfs', element: <AdminRegisteredTurfComp turfs={turfs} /> },
         { path: '/admin-turfs', element: <AdminTurfsComp turfs={turfs} setTurfs={setTurfs} /> },
-        { path: '/admin-edit-turf1', element: <TurfDashComp /> },
+        // { path: '/admin-edit-turf1', element: <TurfDashComp /> },
         { path: '/admin-edit-turf2', element: <TurfService /> },
         { path: '/payment-popup', element: <PaymentPopup /> },
         // { path: '/my-bookings', element: <Bookings /> },
@@ -160,7 +73,7 @@ const App = () => {
         { path: '/pay', element: <PayButton /> },
         { path: '/account', element: <UserAccountComp /> },
         { path: '/view-turf', element: <ViewTurf /> },
-    { path: '*', element: <PageNotFoundComp /> }, 
+    // { path: '*', element: <PageNotFoundComp /> }, 
     ]);
  
     useEffect(() => {

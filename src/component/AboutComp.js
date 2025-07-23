@@ -31,7 +31,7 @@ const AboutComp = () => {
                 <section className="about-section">
                     <h2>Contact Us</h2>
                     <p>
-                        Have questions or feedback? Feel free to reach out to us at <a href="mailto:letsplay@gmail.com">letsplay@gmail.com</a> or <a href="tel:+91 8010677695">8010677695</a>. We’re here to help!
+                        Have questions or feedback? Feel free to reach out to us at <a href="mailto:bhagyeshmp11@gmail.com">letsplay@gmail.com</a> or <a href="tel:+91 8010664356">8010677695</a>. We’re here to help!
                     </p>
                 </section>
             </div>

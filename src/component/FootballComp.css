@@ -5,6 +5,7 @@
     color: #ffffff;
     padding: 20px;
     text-align: center;
+    height: 100vh;
 }
 
 .card-container {
@@ -30,8 +31,6 @@
     margin-bottom: 10px;
     display: block;
     text-align: center;
-    /* border: 1px solid rgb(255, 255, 255); */
-    /* border-radius: 20%; */
 }
 
 .card-description,
