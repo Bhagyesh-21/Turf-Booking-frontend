@@ -1,0 +1,12 @@
+import axios from 'axios';
+
+const AvailabilityService = {
+    checkSlot: async (turfName, date, time) => {
+        const response = await axios.get('/api/availability', {
+            params: { turfName, date, time }
+        });
+        return response.data; // Expected format: { available: true/false }
+    }
+};
+
+export default AvailabilityService;

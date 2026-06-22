@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-// import './EditTurfComp.css'; // Add custom styles for the component
+// import './EditTurfComp.css'; // if want to Add custom styles for the component
 
 const EditTurfComp = ({ turfs, setTurfs }) => {
     const { id } = useParams();

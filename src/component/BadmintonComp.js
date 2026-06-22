@@ -30,7 +30,7 @@ const BadmintonComp = () => {
                     <p className="card-price">Price: ₹300/hour</p>
                     <button className="book-now-btn" onClick={() => handleOpenModal("Court 1", "Mumbai", 300)}>Book Now</button>               
                 </div>
-                {/* Add more cards as needed */}
+                {/* Add more cards as per need */}
             </div>
             <BookingModal
                 isOpen={isModalOpen}

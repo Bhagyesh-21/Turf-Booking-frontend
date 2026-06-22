@@ -1,3 +1,187 @@
+
+
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
+import './ViewTurf.css';
+// import BookingModal from '.'; // Make sure this path is correct
+import BookingModal from './BookingModal';
+
+const ViewTurf = () => {
+    const [turfs, setTurfs] = useState([]);
+    const [selectedTurf, setSelectedTurf] = useState(null);
+    const [showModal, setShowModal] = useState(false);
+
+    useEffect(() => {
+        const fetchTurfs = async () => {
+            try {
+                const response = await axios.get('http://localhost:8088/api/turfs');
+                setTurfs(response.data);
+            } catch (error) {
+                console.error('Error fetching turfs:', error);
+            }
+        };
+
+        fetchTurfs();
+    }, []);
+
+    const handleBooking = (turf) => {
+        setSelectedTurf(turf);
+        setShowModal(true);
+    };
+
+    const closeModal = () => {
+        setShowModal(false);
+        setSelectedTurf(null);
+    };
+
+    return (
+        <div id="view-turf-container">
+            <h2>Available Turfs</h2>
+            <table id="view-turf-table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Turf Name</th>
+                        <th>Purpose</th>
+                        <th>Location Name</th>
+                        <th>Location URL</th>
+                        <th>Price</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {turfs.map(turf => (
+                        <tr key={turf.id}>
+                            <td>{turf.id}</td>
+                            <td>{turf.turfName}</td>
+                            <td>{turf.purpose}</td>
+                            <td>{turf.locationName}</td>
+                            <td>
+                                <a href={turf.locationUrl} target="_blank" rel="noopener noreferrer">
+                                    {turf.locationUrl}
+                                </a>
+                            </td>
+                            <td>{turf.price}</td>
+                            <td>
+                                <button id='book-btn' onClick={() => handleBooking(turf)}>
+                                    Book Now
+                                </button>
+                            </td>
+                        </tr>
+                    ))}
+                </tbody>
+            </table>
+
+            {showModal && selectedTurf && (
+                <BookingModal turf={selectedTurf} onClose={closeModal} />
+            )}
+        </div>
+    );
+};
+
+export default ViewTurf;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // // // import React, { useEffect, useState } from 'react';
 // // // import axios from 'axios';
 
@@ -194,68 +378,85 @@
 
 
 
+// /// final 19-08
+// import React, { useEffect, useState } from 'react';
+// import axios from 'axios';
+// import './ViewTurf.css';
+// import { useNavigate } from 'react-router-dom';
+
+// const ViewTurf = () => {
+//     const [turfs, setTurfs] = useState([]);
+//     const navigate = useNavigate();
+
+//     useEffect(() => {
+//         const fetchTurfs = async () => {
+//             try {
+//                 const response = await axios.get('http://localhost:8088/api/turfs');
+//                 setTurfs(response.data);
+//             } catch (error) {
+//                 console.error('Error fetching turfs:', error);
+//             }
+//         };
+
+//         fetchTurfs();
+//     }, []);
+
+//     const handleBooking = (turfId) => {
+//         navigate(`/book-turf/${turfId}`);
+//     };
+
+//     return (
+//         <div id="view-turf-container">
+//             <h2>Available Turfs</h2>
+//             <table id="view-turf-table">
+//                 <thead>
+//                     <tr>
+//                         <th>ID</th>
+//                         <th>Turf Name</th>
+//                         <th>Purpose</th>
+//                         <th>Location Name</th>
+//                         <th>Location URL</th>
+//                         <th>Price</th>
+//                         <th>Action</th>
+//                     </tr>
+//                 </thead>
+//                 <tbody>
+//                     {turfs.map(turf => (
+//                         <tr key={turf.id}>
+//                             <td>{turf.id}</td>
+//                             <td>{turf.turfName}</td>
+//                             <td>{turf.purpose}</td>
+//                             <td>{turf.locationName}</td>
+//                             <td>
+//                                 <a href={turf.locationUrl} target="_blank" rel="noopener noreferrer">
+//                                     {turf.locationUrl}
+//                                 </a>
+//                             </td>
+//                             <td>{turf.price}</td>
+//                             <td>
+//                                 <button id='book-btn' onClick={() => handleBooking(turf.id)}>
+//                                     Book Now
+//                                 </button>
+//                             </td>
+//                         </tr>
+//                     ))}
+//                 </tbody>
+//             </table>
+//         </div>
+//     );
+// };
+
+// export default ViewTurf;
 
 
-import React, { useEffect, useState } from 'react';
-import axios from 'axios';
-import './ViewTurf.css';
-import { useNavigate } from 'react-router-dom';
 
-const ViewTurf = () => {
-    const [turfs, setTurfs] = useState([]);
-    const navigate = useNavigate();
 
-    useEffect(() => {
-        const fetchTurfs = async () => {
-            try {
-                const response = await axios.get('http://localhost:8088/api/turfs');
-                setTurfs(response.data);
-            } catch (error) {
-                console.error('Error fetching turfs:', error);
-            }
-        };
 
-        fetchTurfs();
-    }, []);
 
-    const handleBooking = (turfId) => {
-        navigate(`/book-turf/${turfId}`);
-    };
 
-    return (
-        <div id="view-turf-container">
-            <h2>Available Turfs</h2>
-            <table id="view-turf-table">
-                <thead>
-                    <tr>
-                        <th>ID</th>
-                        <th>Turf Name</th>
-                        <th>Purpose</th>
-                        <th>Location Name</th>
-                        <th>Location URL</th>
-                        <th>Price</th>
-                        <th>Action</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {turfs.map(turf => (
-                        <tr key={turf.id}>
-                            <td>{turf.id}</td>
-                            <td>{turf.turfName}</td>
-                            <td>{turf.purpose}</td>
-                            <td>{turf.locationName}</td>
-                            <td><a href={turf.locationUrl} target="_blank" rel="noopener noreferrer">{turf.locationUrl}</a></td>
-                            <td>{turf.price}</td>
-                            <td>
-                                {/* <button id='book-btn' onClick={() => handleBooking(turf.id)}>Book Now</button> */}
-                                <button id='book-btn' onClick={(navigate())}>Book Now</button>
-                            </td>
-                        </tr>
-                    ))}
-                </tbody>
-            </table>
-        </div>
-    );
-};
 
-export default ViewTurf;
+
+
+
+
+
